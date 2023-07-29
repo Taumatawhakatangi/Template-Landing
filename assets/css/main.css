@@ -1,0 +1,423 @@
+<!--noindex-->
+<a href="https://www.facebook.com" rel="nofollow noopener noreferrer"
+target="_blank">Facebook/iam</a>
+<!--/noindex-->
+
+------------------------------------------
+
+@media (max-width: 1200px) {
+	padding-bottom: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
+	padding-top: calc(25px + (30 - 25) * ((100vw - 320px) / (1200 - 320)));
+  	margin-bottom: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
+	margin-top: calc(25px + (30 - 25) * ((100vw - 320px) / (1200 - 320)));
+  	line-height: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
+	font-size: calc(25px + (30 - 25) * ((100vw - 320px) / (1200 - 320)));
+  	width: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
+	height: calc(25px + (30 - 25) * ((100vw - 320px) / (1200 - 320)));
+}
+
+/*     1      2    3        4       5         6      7          */
+calc(25px + (30 - 25) * ((100vw - 320px) / (1200 - 320)));
+первая цифра - та к которой мы хотим прийти
+вторая цифра - та которая есть сейчас изначально по макету десктоп
+третья цифра - та к которой мы хотим прийти 
+четвертая цифра - ширина и высота вьюпорта
+пятая цифра - расширение мобильника
+шестая цифра - расширение с которого изменения вступают в силу
+седьмая цифра - расширение к которому изменения польностью завершатся
+
+---------------------------------------------
+
+*::before, 
+*::after {
+	box-sizing: inherit;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+ul, li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: ;
+}
+
+p {
+	margin: 0;
+	line-height: ;
+}
+
+body {
+	padding: 0;
+	margin: 0; 
+	font: 400 17px 'Raleway', sans-serif;
+	letter-spacing: 0.02em;
+	color: ;
+}
+
+img {
+	max-width: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	transition: all .5s ease;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+button, input, textarea, select {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-family: inherit;
+	padding: 0;
+}
+
+input {
+	max-width: ;
+	background: ;
+	border: 1px solid transparent;
+	border-radius: 0;
+	box-sizing: border-box;
+	box-shadow: none;
+	font-size: ;
+	font-family: ;
+	font-weight: ;
+	color: ;
+	caret-color: pink;
+	outline: none;
+}
+
+input:focus {
+	border: 1px solid #000;
+	outline: none;
+}
+  
+  input:hover {
+	color: #00BFBF;
+	border: 2px solid #80DFDF;
+}
+  
+  input::-webkit-input-placeholder {
+	color: #2E4D95;
+	-webkit-transition: all .1s linear;
+	transition: all .1s linear;
+}
+  
+  input::-moz-placeholder {
+	color: #2E4D95;
+	-moz-transition: all .1s linear;
+	transition: all .1s linear;
+}
+  
+  input:-ms-input-placeholder {
+	color: #2E4D95;
+	-ms-transition: all .1s linear;
+	transition: all .1s linear;
+}
+  
+  input::-ms-input-placeholder {
+	color: #2E4D95;
+	-ms-transition: all .1s linear;
+	transition: all .1s linear;
+}
+  
+  input::placeholder {
+	color: #2E4D95;
+	transition: all .1s linear;
+}
+  
+  input:hover::-webkit-input-placeholder {
+	color: #00BFBF;
+}
+  
+  input:hover::-moz-placeholder {
+	color: #00BFBF;
+}
+  
+  input:hover:-ms-input-placeholder {
+	color: #00BFBF;
+}
+  
+  input:hover::-ms-input-placeholder {
+	color: #00BFBF;
+}
+  
+  input:hover::placeholder {
+	color: #00BFBF;
+}
+  
+  input:focus {
+	border: 2px solid #2E4D95;
+	font-weight: 600;
+	font-size: 20px;
+	color: #2E4D95
+}
+  
+  input:invalid {
+	border: 2px solid #F61538;
+	color: red;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+textarea {
+	box-shadow: none;
+	border-radius: 0;
+	resize: none;
+	min-width: ;
+	min-height: ;
+	padding-bottom: ;
+	font-weight: ;
+	font-size: ;
+	color: ;
+	border-bottom: ;
+	margin-bottom: ;
+}
+
+textarea:focus {
+
+}
+
+label {
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+button {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+span {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	transition: all .5s ease;
+	color: #000;
+}
+
+/*scrollbar* поддержка есть в хроме сафари и опере/     
+
+body::-webkit-scrollbar {             /*ширина скролбара*/
+	width: ;
+ 
+body::-webkit-scrollbar-track {       /*дорожка по котороый ездит ползунок*/
+	background: ;
+
+}
+
+body::-webkit-scrollbar-thumb {       /*сам ползунок*/
+	background: ;
+	border-radius: ;
+	border: ;
+}
+
+/*scrollbar*/
+
+::-moz-selection {
+	background: #6E9C9F;
+	color: #fff;
+}
+
+::selection {
+	background: #6E9C9F;
+	color: #fff;
+}
+
+.page {
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	min-height: 100vh;
+	min-width: 320px;
+}
+
+.animated {
+	opacity: 0;
+}
+
+.container{
+	width: 100%;
+	max-width: 1110px;
+	margin: 0 auto;
+	padding: 0 15px;	
+	position: relative;
+}
+
+.btn {
+	max-width: 243px;
+	text-align: center;
+	display: block;
+	padding: 2em 1em;
+	text-decoration: none;
+	background: #6E9C9F;
+	color: #fff;
+	letter-spacing: 0.02em;
+	transition: all .5s ease;
+	font-size: 17px;
+	border: 1px solid transparent;
+	white-space: nowrap;
+}
+
+.btn:hover {
+	background: #509498;
+	border: 1px solid transparent;
+}
+
+.btn:active {
+	background: #2F8A8F;
+}
+
+.tel {
+	white-space: nowrap;
+}
+
+.section-title {
+	margin-bottom: 92px;
+	font-size: 40px;
+}
+
+.transparent-btn {
+	font-size: 17px;
+	text-align: center;
+	display: block;
+	padding: 22px;
+	max-width: 243px;
+	margin: 0 auto;
+	color: #6E9C9F;
+	letter-spacing: 0.02em;
+	background: transparent;
+	border: 1px solid #6E9C9F;
+	transition: all .5s ease;
+	white-space: nowrap;
+}
+
+.transparent-btn:hover {
+	background: #6E9C9F;
+	color: #fff;
+	border: 1px solid #6E9C9F;
+}
+
+.transparent-btn:active {
+	background: #2F8A8F;
+}
+
+/* burger BEGIN */
+
+.burger {
+	width: 35px;
+	height: 25px;
+}
+
+.burger span {
+    border-radius: 10px;
+	margin-bottom: 5px;
+    display: block;
+	width: 35px;
+	height: 5px;
+	background-color: #333;
+    transition: 0.4s;
+}
+
+.burger__middle.active {
+	opacity: 0;
+}
+
+.burger__top.active {
+  	transform: rotate(-45deg) translate(-7px, 6px);
+}
+
+.burger__bottom.active {
+  	transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* burger END */
+
+
+/* header BEGIN */
+
+.header {
+
+}
+
+/* header END */
+
+
+/* section__ BEGIN */
+/* section__ END   */
+
+/* section__ BEGIN */
+/* section__ END   */
+
+/* section__ BEGIN */
+/* section__ END   */
+
+/* section__ BEGIN */
+/* section__ END   */
+
+/* section__ BEGIN */
+/* section__ END   */
+
+/* section__ BEGIN */
+/* section__ END   */
+
+/* section__ BEGIN */
+/* section__ END   */
+
+/* section__ BEGIN */
+/* section__ END   */
+
+/* section__ BEGIN */
+/* section__ END   */
+
+/* section__ BEGIN */
+/* section__ END   */
+
+/* section__ BEGIN */
+/* section__ END   */
+
+/* section__ BEGIN */
+/* section__ END   */
+
+/* section__ BEGIN */
+/* section__ END   */
+
+
+/* footer BEGIN */
+
+.footer {
+	margin-top: auto;
+}
+
+/* footer END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
